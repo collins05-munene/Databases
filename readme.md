@@ -4,7 +4,7 @@ This repository contains my structured notes and exercises from the CS50 Databas
 
 ##  Course Info
 - Course: CS50's Introduction to Databases
-- Platform: Harvard / edX
+- Platform: Harvard University / Youtube 
 - Focus: SQL, database design, querying, and real-world applications
 
 ## Course Contents 
