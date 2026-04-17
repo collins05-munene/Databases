@@ -25,4 +25,7 @@
     Is our number of daily users growing or shrinking?
     Which songs are most like the song a user just played? 
     
+
+    %like% => Case insensitive
+    = => case sensitive
  
