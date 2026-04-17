@@ -20,6 +20,15 @@
 ## Sructured Query Language
  . A language via which you can create, read, update and delete data in a database.
 
+## Opening the db
+    sqlite3 {database name}
+
+## Closing the db
+    .quit
+
+## Show tables in the db
+    .tables
+    
 ## Querying
     What's the most liked post on our platform?
     Is our number of daily users growing or shrinking?
@@ -28,4 +37,6 @@
 
     %like% => Case insensitive
     = => case sensitive
+
+## Relating
  
