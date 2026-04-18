@@ -97,10 +97,23 @@
             . I can't insert null values
         > UNIQUE
             . every row in this column is unique
-            
+
     CREATE TABLE "stations" (
         "id" INTEGER,
         "name" TEXT NOT NULL UNIQUE,
         "line" TEXT NOT NULL,
         PRIMARY KEY("id")
     );
+
+## Altering Tables
+ ### Drop Table
+    <> DROP TABLE "riders";
+
+ ### Alter Table
+    <> ALTER TABLE "visits" RENAME TO "swipes";
+
+    <> ALTER TABLE "swipes" ADD COLUMN "ttpe" TEXT;
+
+    <> ALTER TABLE "swipes" RENAME COLUMN "ttpe" TO "type";
+
+    <> ALTER TABLE "swipes" DROP COLUMN "type";
