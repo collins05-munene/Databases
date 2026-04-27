@@ -117,3 +117,5 @@
     <> ALTER TABLE "swipes" RENAME COLUMN "ttpe" TO "type";
 
     <> ALTER TABLE "swipes" DROP COLUMN "type";
+
+    <> ALTER TABLE "collections" ADD COLUMN "deleted" INTEGER DEFAULT 0;
